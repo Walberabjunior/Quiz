@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilo.css" rel="stylesheet">
+
+    <title>Quiz</title>
+</head>
+
+<body>
+
+    <div id="quiz" data-status="ok">
+        <h2 id="pergunta"> Quiz do Milhão: </h2>
+        <div id="respostas">
+            <button id="resp0" class="resposta">Aqui resposta 1</button>
+            <button id="resp1" class="resposta">Aqui resposta 2</button>
+            <button id="resp2" class="resposta">Aqui resposta 3</button>
+            <button id="resp3" class="resposta">Aqui resposta 4</button>
+        </div>
+        <br><br>
+        <button id="confirm">Confirmar</button>
+    </div>
+    <div id="status" class="oculto">
+        <h2 id="mensagem">Game Over!</h2>
+        <button id="novoJogo">Novo Jogo</button>
+    </div>
+
+
+
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/game.js"></script>
+</body>
+
+</html>
